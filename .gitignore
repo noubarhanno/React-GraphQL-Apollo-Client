@@ -1,0 +1,6 @@
+node_modules
+.DS_STORE
+
+
+# ignore the connection string as containing the password of the account
+MongoUri.js
