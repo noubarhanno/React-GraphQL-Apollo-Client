@@ -11,6 +11,7 @@ const app = express();
 
 // Replace with your mongoLab URI
 // const MONGO_URI = 'mongodb+srv://<Your MongoDB Arlas Name>:<Your Password>@cluster-test-te9za.mongodb.net/test?retryWrites=true'
+// MongoUri was ignored - containing Credentials 
 const MONGO_URI = MongoUri();
 if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
